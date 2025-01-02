@@ -23,40 +23,40 @@ This project is designed to develop a Municipality and Urban Planning system the
 
 ## 1. General Purpose Tables
 
-cache: Stores key-value pairs and expiration times.
+`cache`: Store key-value pairs and expiration times.
 
-cache_locks: Used for locking mechanisms.
+`cache_locks`: Used for locking mechanisms.
 
-failed_jobs: Records failed jobs.
+`failed_jobs`: Records failed jobs.
 
-job_batches and jobs: Handles queue systems and job management.
+`job_batches and jobs`: Handles queue systems and job management.
 
-migrations: Tracks database migrations.
+`migrations`: Tracks database migrations.
 
-sessions: Manages user sessions.
+`sessions`: Manages user sessions.
 
 
 ------------------------------------------------------------
 
 ## 2. Main Functional Tables
 
-departmanlar: Stores information about municipal departments.
+`departmanlar`: Stores information about municipal departments.
 
-calisanlar: Manages municipal employees, linked with department and user tables.
+`calisanlar`: Manages municipal employees, linked with department and user tables.
 
-users: Manages system users.
+`users`: Manages system users.
 
-role: Defines user roles.
+`role`: Defines user roles.
 
-sakinler_bilgis: Stores information about city residents.
+`sakinler_bilgis`: Stores information about city residents.
 
-hizmet_kategoris and hizmet_bilgis: Provides information about services offered by the municipality and their categories.
+`hizmet_kategoris and hizmet_bilgis`: Provides information about services offered by the municipality and their categories.
 
-kalite_kategori and kalite_bilgi: Manages environmental quality information and categories.
+`kalite_kategori and kalite_bilgi`: Manages environmental quality information and categories.
 
-onerilers: Stores citizen suggestions.
+`onerilers`: Stores citizen suggestions.
 
-vatandas_geri_bildirimleris: Handles feedback from citizens.
+`vatandas_geri_bildirimleris`: Handles feedback from citizens.
 
 
 
@@ -64,11 +64,11 @@ vatandas_geri_bildirimleris: Handles feedback from citizens.
 
 ## 3. Supporting Tables
 
-password_reset_tokens: Temporarily stores tokens for password reset processes.
+`password_reset_tokens`: Temporarily stores tokens for password reset processes.
 
-giriskayitlari: Logs user login activities.
+`giriskayitlari`: Logs user login activities.
 
-sikayetler: Manages citizen complaints and their statuses.
+`sikayetler`: Manages citizen complaints and their statuses.
 
 
 
